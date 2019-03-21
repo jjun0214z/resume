@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import styles from "./App.module.scss";
 
 class App extends Component {
     render() {
         return (
-            <div className="App">aaa</div>
+            <div className={styles.app}>aaa</div>
         );
     }
 }
