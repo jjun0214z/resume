@@ -1,0 +1,75 @@
+.profile {
+    .column {
+        margin-top: 50px;
+        display: flex;
+        justify-content: left;
+        &:first-child {
+            margin-top: 0;
+        }
+        
+        .photo {
+            width: 250px;
+            padding-right: 30px;
+            font-size: 0;
+            img {width: 100%;}
+        }
+        .userInfo {
+            .name {
+                font-size: 40px;
+                font-weight: bold;
+                line-height: 50px;
+                color: $dark-gray;
+                .small {
+                    display: inline-block;
+                    font-size:20px;
+                    font-weight: normal;
+                    vertical-align: bottom;
+                    line-height: 24px;
+                    color: $light-gray;
+                }
+            }
+            .info {
+                margin-top: 20px;
+                li{
+                    margin-top: 5px;
+                    font-size: 16px;
+                    line-height: 34px;
+                    color: $dark-gray;
+                    .icon {
+                        margin-right: 10px;
+                        display: inline-block;
+                        svg {
+                            vertical-align: middle;
+                        }
+                    }
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+
+        .title {
+            padding-right: 30px;
+            display: block;
+            span {
+                width: 250px;
+                display: block;
+                text-align: right;
+                font-size: $title-font-size;
+                font-weight: bold;
+                line-height: 34px;
+                color: $dark-gray;
+            }
+        }
+        .txtWrap {
+            p {
+                margin-top: 10px;
+                font-size: $normal-font-size;
+                line-height: 24px;
+                color: $dark-gray;
+                &:first-child {margin-top: 0;}
+            }
+        }   
+    }
+}
