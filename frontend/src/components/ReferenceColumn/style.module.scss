@@ -1,0 +1,53 @@
+.column {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+
+    .title {
+        padding-right: 30px;
+        display: block;
+        span {
+            width: 250px;
+            display: block;
+            text-align: right;
+            font-size: $title-font-size;
+            font-weight: bold;
+            line-height: 34px;
+            color: $dark-gray;
+        }
+    }
+    .list {
+        li {
+            margin-top: 20px;
+            padding-left: 15px;
+            position: relative;
+            &:first-child {margin-top: 0;}
+            &:before {
+                content: "";
+                display: block;
+                width: 6px;
+                height: 2px;
+                background-color: $light-blue;
+                position: absolute;
+                top: 17px;
+                left: 0;
+            }
+
+            .tit {
+                margin-bottom: 5px;
+                display: block;
+                font-size: $normal-font-size;
+                font-weight: bold;
+                color: $light-blue;
+                line-height: 30px;
+            }
+            .cont {
+                .txt {
+                    font-size: $normal-font-size;
+                    color: $dark-gray;
+                    line-height: 30px;
+                }
+            }
+        }                
+    }
+}

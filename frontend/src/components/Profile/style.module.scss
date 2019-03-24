@@ -1,4 +1,6 @@
 .profile {
+    padding-bottom: 50px;
+    border-bottom: 5px solid $dark-gray;
     .column {
         margin-top: 50px;
         display: flex;
@@ -59,7 +61,7 @@
                 font-size: $title-font-size;
                 font-weight: bold;
                 line-height: 34px;
-                color: $dark-gray;
+                color: $light-blue;
             }
         }
         .txtWrap {
