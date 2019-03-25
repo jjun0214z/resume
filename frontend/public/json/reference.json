@@ -1,0 +1,54 @@
+[
+    {
+        "key": "SKILLS",
+        "value": [
+            {
+                "title": "Programming Language / methodology",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+            },
+            {
+                "title": "Programming Language / methodology2",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+            }
+        ]
+    },
+    {
+        "key": "EXPERIENCE",
+        "value": [
+            {
+                "title":"Programming Language / methodology",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+            },
+            {
+                "title": "Programming Language / methodology2",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+            }
+        ]     
+    },
+    {
+        "key": "PROJECTS",
+        "value": [
+            {
+                "title": "Programming Language / methodology",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+            },
+            {
+                "title": "Programming Language / methodology2",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+            }
+        ]
+    },
+    {
+        "key": "EDUCATION",
+        "value": [
+            {
+                "title": "Programming Language / methodology",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+            },
+            {
+                "title": "Programming Language / methodology2",
+                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+            }
+        ]
+    }
+]
