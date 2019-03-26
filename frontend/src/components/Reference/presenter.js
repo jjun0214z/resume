@@ -7,8 +7,8 @@ const Reference = props => {
         <div className={styles.Reference}>
             {props.reference.map( ( referenceType ) => 
                 <ReferenceExplore 
+                    {...referenceType}
                     title={referenceType.key}
-                    value={referenceType.value}
                     key={referenceType.key}
                 />
             )}
@@ -17,11 +17,12 @@ const Reference = props => {
 };
 
 const ReferenceExplore = props => {
+    const { value, title } = props;
     return (
-        <div className={styles.column}>
-            <div className={styles.title}><span>{props.title}</span></div>
+        <div className={styles.referenceArea}>
+            <div className={styles.title}><span>{title}</span></div>
             <ul className={styles.list}>
-                {props.value.map( (value, idx) => 
+                {value.map( (value, idx) => 
                     <ReferenceRow value={value} key={idx} />
                 )}
             </ul>
@@ -29,15 +30,30 @@ const ReferenceExplore = props => {
     );
 };
 
-
 const ReferenceRow = props => {
+    const { value } = props;
+
     return (
         <li>
-            <strong className={styles.tit}>{props.value.title}</strong>
-            <div className={styles.cont}>
-                <p className={styles.txt}>{props.value.text}</p>
+            <div className={styles.column}>
+                <strong className={styles.tit}>{value.title}</strong>
+                <div>
+                    {value.subTitle !== undefined && <div className={styles.subTitle}>{value.subTitle}</div>}
+                    {value.explanation !== undefined && <div className={styles.explanation}>{value.explanation}</div>}
+                    <ul className={styles.textList}>
+                        {value.text.map( (text, idx) => 
+                            <ExplanList text={text} key={idx} />
+                        )}
+                    </ul>
+                </div>
             </div>
         </li>
+    );
+};
+
+const ExplanList = props => {
+    return (
+        <li className={styles.txt}>{props.text}</li>
     );
 };
 

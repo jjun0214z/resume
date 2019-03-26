@@ -4,11 +4,19 @@
         "value": [
             {
                 "title": "Programming Language / methodology",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+                "text": ["JavaScript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS), Python(Django)"]
             },
             {
-                "title": "Programming Language / methodology2",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+                "title": "Framework / Library",
+                "text": ["Reeat.js, Vue.js, Redux, TypeScript, jQeury"]
+            },
+            {
+                "title": "Server",
+                "text": ["Node.js, Express.js, PostgreSQL"]
+            },
+            {
+                "title": "Etc",
+                "text": ["Weppack, Git/Github, vscode"]
             }
         ]
     },
@@ -16,12 +24,42 @@
         "key": "EXPERIENCE",
         "value": [
             {
-                "title":"Programming Language / methodology",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+                "title":"2017. 10 ~ 2018. 4",
+                "subTitle":"비에이비오커뮤니케이션",
+                "explanation": "대리",
+                "text": [
+                    "UI개발",
+                    "웹 퍼블리싱",
+                    "CMS서버 기반의 UI개발"
+                ]
             },
             {
-                "title": "Programming Language / methodology2",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+                "title":"2015. 12 ~ 2017. 5",
+                "subTitle":"애드캡슐소프트",
+                "explanation": "주임",
+                "text": [
+                    "UI개발",
+                    "웹 퍼블리싱",
+                    "SI기반 개발환경"
+                ]
+            },
+            {
+                "title":"2014. 09 ~ 2015. 11",
+                "subTitle":"이안소프트",
+                "explanation": "사원",
+                "text": [
+                    "UI개발",
+                    "웹 퍼블리싱",
+                    "웹 에이전시"
+                ]
+            },
+            {
+                "title":"2014. 03 ~ 2014. 08",
+                "subTitle":"에스더블유",
+                "explanation": "사원",
+                "text": [
+                    "웹 퍼블리싱"
+                ]
             }
         ]     
     },
@@ -29,12 +67,71 @@
         "key": "PROJECTS",
         "value": [
             {
-                "title": "Programming Language / methodology",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+                "title":"2018. 06 ~ 2019. 03",
+                "subTitle":"홈&쇼핑웹 운영 및 개선",
+                "explanation": "홈&쇼핑/소셜앱스",
+                "text": [
+                    "메인 다모아 UI개선",
+                    "메인 TV편성표 UI개선",
+                    "묶음상품 UI개선",
+                    "프로모션 페이지 작업"
+                ]
             },
             {
-                "title": "Programming Language / methodology2",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+                "title":"2018. 04 ~ 2019. 06",
+                "subTitle":"경기도 일자리재단 반응형웹 리뉴얼",
+                "explanation": "경기도 일자리재단/어니컴",
+                "text": [
+                    "레이아웃, 메인UI 퍼블리싱",
+                    "경기도 일자리재단 마이크로사이트5개 퍼블리싱",
+                    "일자리 검색UI 퍼블리싱"
+                ]
+            },
+            {
+                "title":"2017. 07 ~ 2017. 09",
+                "subTitle":"원모어트립 모바일웹, SK나이츠 반응형웹 리뉴얼",
+                "explanation": "SK나이츠/크림하우스",
+                "text": [
+                    "원모어트립 모바일웹 메인UI 퍼블리싱",
+                    "SK나이츠 반응형웹 퍼블리싱 단독 진행"
+                ]
+            },
+            {
+                "title":"2017. 02 ~ 2017. 03",
+                "subTitle":"아리따움 온라인아카데미 웹앱 부분 리뉴얼",
+                "explanation": "아리따움/애드캡슐소프트",
+                "text": [
+                    "메인 플리킹 구조 UI개발",
+                    "서브 레이아웃 UI개선"
+                ]
+            },
+            {
+                "title":"2016. 08 ~ 2017. 05",
+                "subTitle":"SKT전화웹, 에스원웹 운영 및 개선",
+                "explanation": "(SKT, 에스원)/애드캡슐소프트",
+                "text": [
+                    "메인 서브페이지 개선",
+                    "프로모션 페이지 작업",
+                    "SKT전화 웹 테마에디터 개발"
+                ]
+            },
+            {
+                "title":"2016. 04 ~ 2017. 08",
+                "subTitle":"SC제일은행웹 SALES부분 리뉴얼",
+                "explanation": "SC은행/애드캡슐소프트",
+                "text": [
+                    "메인, 레이아웃 UI개선",
+                    "서브 카테고리 금융SALES부분 UI개선"
+                ]
+            },
+            {
+                "title":"2015. 12 ~ 2016. 04",
+                "subTitle":"교보라이프플래닛웹 운영 및 개선",
+                "explanation": "교보라이프플래닛/애드캡슐소프트",
+                "text": [
+                    "메인 서브페이지 개선",
+                    "프로모션 페이지 작업"
+                ]
             }
         ]
     },
@@ -42,12 +139,16 @@
         "key": "EDUCATION",
         "value": [
             {
-                "title": "Programming Language / methodology",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"
+                "title":"2007. 02 ~ 2013. 02",
+                "subTitle":"여주대학 졸업",
+                "explanation": "컴퓨터정보과",
+                "text": []
             },
             {
-                "title": "Programming Language / methodology2",
-                "text": "Javascript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)2"
+                "title":"2004. 02 ~ 2017. 02",
+                "subTitle":"인천정보산업 고등학교",
+                "explanation": "전자과",
+                "text": []
             }
         ]
     }
