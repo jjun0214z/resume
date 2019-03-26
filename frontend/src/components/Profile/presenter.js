@@ -20,6 +20,7 @@ const Profile = (props) => {
                     </ul>
                 </div>
             </div>
+            
             <div className={styles.column}>
                 <div className={styles.title}><span>INTRODUCE</span></div>
                 <div className={styles.txtWrap}>
