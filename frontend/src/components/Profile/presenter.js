@@ -19,6 +19,7 @@ const Profile = (props) => {
                         <li><span className={styles.icon}><IosCode fontSize="30px" color="#3e3e3e" /></span>https://jjun0214z.github.io/resume</li>
                     </ul>
                 </div>
+                
             </div>
             <div className={styles.column}>
                 <div className={styles.title}><span>INTRODUCE</span></div>
