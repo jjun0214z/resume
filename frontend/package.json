@@ -85,5 +85,6 @@
   },
   "devDependencies": {
     "redux-logger": "^3.0.6"
-  }
+  },
+  "homepage": "https://jjun0214z.github.io/resume/"
 }
