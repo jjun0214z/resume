@@ -13,10 +13,10 @@ const Profile = (props) => {
                 <div className={styles.userInfo}>
                     <p className={styles.name}>박준민 <span className={styles.small}>Junmin Park</span></p>
                     <ul className={styles.info}>
-                        <li><span className={styles.icon}><IosPhonePortrait fontSize="30px" color="#3e3e3e" /></span>010-9914-9055</li>
-                        <li><span className={styles.icon}><IosMailOutline fontSize="30px" color="#3e3e3e" /></span>jjun0214z@gmail.com</li>
-                        <li><span className={styles.icon}><LogoGithub fontSize="30px" color="#3e3e3e" /></span>https://github.com/jjun0214z</li>
-                        <li><span className={styles.icon}><IosCode fontSize="30px" color="#3e3e3e" /></span>https://jjun0214z.github.io/resume</li>
+                        <li><span className={styles.icon}><IosPhonePortrait fontSize="30px" color="#3e3e3e" /></span><a href="tel:010-9914-9055">010-9914-9055</a></li>
+                        <li><span className={styles.icon}><IosMailOutline fontSize="30px" color="#3e3e3e" /></span><a href="mailto:jjun0214z@gmail.com">jjun0214z@gmail.com</a></li>
+                        <li><span className={styles.icon}><LogoGithub fontSize="30px" color="#3e3e3e" /></span><a href="https://github.com/jjun0214z" target="_blank">https://github.com/jjun0214z</a></li>
+                        <li><span className={styles.icon}><IosCode fontSize="30px" color="#3e3e3e" /></span><a href="https://jjun0214z.github.io/resume" target="_blank">https://jjun0214z.github.io/resume</a></li>
                     </ul>
                 </div>
             </div>
