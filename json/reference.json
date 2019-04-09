@@ -4,15 +4,11 @@
         "value": [
             {
                 "title": "Programming Language / methodology",
-                "text": ["JavaScript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS), Python(Django)"]
+                "text": ["JavaScript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"]
             },
             {
                 "title": "Framework / Library",
-                "text": ["Reeat.js, Vue.js, Redux, TypeScript, jQeury"]
-            },
-            {
-                "title": "Server",
-                "text": ["Node.js, Express.js, PostgreSQL"]
+                "text": ["React, Redux, Vue, router, jQeury"]
             },
             {
                 "title": "Etc",
