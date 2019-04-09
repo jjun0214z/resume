@@ -8,11 +8,15 @@
             },
             {
                 "title": "Framework / Library",
-                "text": ["React, Vue, Redux, router, jQeury"]
+                "text": ["React, Vue, jQeury"]
+            },
+            {
+                "title": "Server",
+                "text": ["Node.js, Express.js, PostgreSQL"]
             },
             {
                 "title": "Etc",
-                "text": ["Weppack, Git/Github, vscode"]
+                "text": ["Weppack, TypeScript, Git/Github, vscode"]
             }
         ]
     },
