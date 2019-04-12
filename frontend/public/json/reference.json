@@ -4,11 +4,11 @@
         "value": [
             {
                 "title": "Programming Language / methodology",
-                "text": ["JavaScript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS), Python(Django)"]
+                "text": ["JavaScript(ES5, ES6), HTML, CSS(CSS3, SCSS, LESS)"]
             },
             {
                 "title": "Framework / Library",
-                "text": ["Reeat.js, Vue.js, Redux, TypeScript, jQeury"]
+                "text": ["React, Vue, jQeury"]
             },
             {
                 "title": "Server",
@@ -16,7 +16,7 @@
             },
             {
                 "title": "Etc",
-                "text": ["Weppack, Git/Github, vscode"]
+                "text": ["TypeScript, Weppack, Git/Github, vscode"]
             }
         ]
     },
