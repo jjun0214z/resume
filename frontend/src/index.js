@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import store, { history } from 'redux/configureStore';
 import App from 'components/App';
+import 'polyfills.js';
 
 ReactDOM.render(
     <Provider store={store}>
